@@ -582,6 +582,7 @@ transition: .3s;
 
 /* custom cursor */
 
+
 /* top arrow */
 #Btn{
   bottom: 25px;
@@ -612,7 +613,9 @@ transition: .3s;
     .splide__arrow.splide__arrow--prev{
     left: 40%;
     }
-    
+  .cursor{
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px)  {
     .navbar-toggler:focus,
