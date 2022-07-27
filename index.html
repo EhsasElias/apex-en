@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <!-- nav -->
+    <header class=" position-absolute ">
+        <div class="d-flex align-items-center justify-content-between py-3 px-4 navbar1">
+            <div>We can change your life
+                <span class="orangeEffec"> &nbsp; &nbsp;123-456-7890</span>
+            </div>
+            <div class="d-flex ms-auto">
+                <div class="d-flex mx-3">
+                    <p class="my-auto mx-2 orangeEffec">Login</p>
+                    <p class="my-auto mx-2 orangeEffec">Register</p>
+                </div>
+                <div class="d-flex">
+                    <p class="fa fa-facebook-official my-auto mx-2 orangeEffec"></p>
+                    <p class="fa fa-twitter my-auto mx-2 orangeEffec"></p>
+                    <p class="fa fa-pinterest-p my-auto mx-2 orangeEffec"></p>
+                    <p class="fa fa-google-plus-square my-auto mx-2 orangeEffec"></p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+            <!-- Navbar brand -->
+            <a class="navbar-brand mx-4" href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler third-button border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <div class="animated-icon3"><span></span><span></span><span></span></div>
+
+            </button>
+
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto my-2">
+                    <!-- links -->
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold active mx-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">HR resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Training</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Training Plan</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">Consultings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold mx-2" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link fw-bold mx-lg-4 mx-2 px-4 py-1" href="#">Consulting </button>
+                    </li>
+                    <div class="d-lg-none d-block">
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-2" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-bold mx-2" href="#">Login</a>
+                        </li>
+                    </div>
+
+                    <!-- links -->
+                </ul>
+            </div>
+            <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+    </header>
+    <!-- nav -->
+    <!-- slider -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class=" active mx-1"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+                class="mx-1"></button>
+        </div>
+        <div class="carousel-inner w-100">
+            <div class="carousel-item active ">
+                <div class="bg-img bg1-bg w-100"></div>
+                <div class="carousel-caption fs-4">
+                    <div class=" align-items-center p-head d-none d-md-flex fs-6 fw-normal">
+                        <div class="px-3 mx-3 mb-3"> </div>
+                        <p>
+                            WELCOME TO APEX CONSULTING
+                        </p>
+                    </div>
+                    <h1 class="fw-bold"> Change Your Life</h1>
+                    <h1 class="fw-bold typing-container" id="sentence">
+                        <span id="sentence" class="sentence">We Provide </span>
+                        <span id="feature-text" style="border-bottom: 6px solid #e08930;"></span>
+                        <span class="input-cursor"></span>
+                    </h1>
+                    <div class="btnns mt-5">
+                        <button class="border-0 px-4  rounded-pill fw-bold contact">
+                            GET IN TOUCH
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                        <button class="border-0 px-4  ms-3 rounded-pill fw-bold more">LEARN MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="bg-img bg2-img w-100 "></div>
+                <div class="carousel-caption fs-4">
+                    <div class=" align-items-center p-head d-none d-md-flex fs-6 fw-normal">
+                        <div class="px-3 mx-3 mb-3"> </div>
+                        <p>
+                            WELCOME TO APEX CONSULTING
+                        </p>
+                    </div>
+                    <h1 class="fw-bold">Creative Coaching </h1>
+                    <h1 class="fw-bold">We Provide <span class="courses">Courses</span></h1>
+                    <div class="btnns mt-5">
+                        <button class="border-0 px-4  rounded-pill fw-bold">
+                            GET IN TOUCH
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                        <button class="d-none"></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- slider -->
+
+    <!-- secound level -->
+    <section class="service py-5">
+        <div class="col-lg-7 col-sm-12  m-auto pb-3">
+            <h2 class="text-center fw-bold mt-5">
+                Push Your Life To a New Level
+            </h2>
+            <div class="devider m-auto my-4">
+                <div> </div>
+            </div>
+            <p class="fs-6 col-lg-8 text-center m-auto">
+                We can help you create positive and permanent changes in your life. Let’s Create Something new and
+                awesome Togeather.
+            </p>
+        </div>
+        <div class="my-5 d-flex justify-content-center  cards col-lg-10 m-auto ">
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3 py-3 px-4 my-2">
+                <div class="card-body  py-3 px-4">
+                    <p class="fa fa-laptop icon"></p>
+                    <h5 class="card-title fw-bold fs-3">Training</h5>
+                    <p class="card-text fs-6 ">
+                        Apex features the application of advanced training models including:
+                        work, lectures, forum or both, as well as offering short courses in management areas
+                        Marketing, finance, accounting and technical fields.
+                    </p>
+                    <a href="#" class="card-link">
+                        <i class="fa fa-arrow-right"></i>
+                        READ MORE
+                    </a>
+
+                </div>
+            </div>
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3 py-3 px-4 pt-auto my-2">
+                <div class="card-body  py-3 px-4 ">
+                    <p class="fa fa-line-chart icon"></p>
+                    <h5 class="card-title fw-bold fs-3">Consultings</h5>
+                    <p class="card-text fs-6">
+                        Provides consulting services in a number of integrated fields with the possibility of developing
+                        the fields of the company's required needs
+                    </p>
+                    <br><br>
+                    <a href="#" class="card-link">
+                        <i class="fa fa-arrow-right"></i>
+                        READ MORE
+                    </a>
+
+                </div>
+            </div>
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3 py-3 px-4 my-2">
+                <div class="card-body  py-3 px-4">
+                    <p class="fa fa-bullhorn icon"></p>
+                    <h5 class="card-title fw-bold fs-3"> Digital Marketing</h5>
+                    <p class="card-text fs-6">We have a team for e-marketing, graphics and web design.</p>
+                    <br><br><br><br><br>
+                    <a href="#" class="card-link">
+                        <i class="fa fa-arrow-left"></i>
+                        READ MORE
+                    </a>
+
+                </div>
+            </div>
+
+
+        </div>
+        <div class="btnns mt-5 w-100 d-flex justify-content-center">
+            <button class="border-0 px-4  rounded-pill fs-6 ">
+                VIEW ALL SERVICES
+                <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+    <!-- secound level -->
+
+    <!-- third section -->
+
+    <section class="building w-100 d-flex align-items-center justify-content-center">
+        <div class="text-white">
+            <h1 class="text-center fw-bold">
+                Trusted By More
+
+            </h1>
+            <h1 class="text-center fw-bold">
+                Than 650,000 Happy Company
+            </h1>
+            <p class="text-center my-4 fs-5">
+                Let’s Create Something new and awesome Togeather.
+            </p>
+            <div class="btnns mt-5 d-flex justify-content-center">
+                <button class="border-0 px-4  rounded-pill">
+                    START TODAY
+                    <i class="fa fa-arrow-right"></i>
+                </button>
+                <span class="d-none"></span>
+            </div>
+
+        </div>
+    </section>
+    <!-- third section -->
+
+    <!--consulting services  -->
+    <section class="py-5 cons-services ">
+        <div class="col-lg-7 col-sm-12  m-auto pb-3">
+            <h2 class="text-center fw-bold mt-5 text-dark">
+                Our consulting services
+            </h2>
+            <div class="devider m-auto my-4">
+                <div> </div>
+            </div>
+            <p class="fs-6 col-lg-9 text-center m-auto">
+                Apex provides consulting services in a number of integrated fields with the possibility of developing
+                any field according to the company's required needs, and these areas are represented in the following:
+            </p>
+        </div>
+        <div class="container w-100 my-5">
+            <div class="row">
+                <div class="splide col-12">
+                    <div class="splide__track">
+                        <div class="splide__list d-flex justify-content-between m-auto">
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-area-chart fs-1"></p>
+                                        <h5 class="fs-5">Financial Plans</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-line-chart fs-1"></p>
+                                        <h5 class="fs-5">Business Development</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-newspaper-o fs-1"></p>
+                                        <h5 class="fs-5">Strategic Plans</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-pencil-square-o fs-1"></p>
+                                        <h5 class="fs-5">Feasibility Study</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-money fs-1"></p>
+                                        <h5 class="fs-5">Accounts</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body">
+                                        <p class="card-title fa fa-globe fs-1"></p>
+                                        <h5 class="fs-5">Humanitarian Response</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-table fs-1"></p>
+                                        <h5 class="fs-5">Solar System</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-hourglass-half fs-1"></p>
+                                        <h5 class="fs-5">Inventory Control</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-child fs-1"></p>
+                                        <h5 class="fs-5">Human Resources</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-laptop fs-1"></p>
+                                        <h5 class="fs-5">Information Technology</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-gears fs-1"></p>
+                                        <h5 class="fs-5">Project Management</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0 py-3 pt-auto my-2 w-100">
+                                    <div class="card-body">
+                                        <p class="card-title fa fa-gear  fs-1"></p>
+                                        <h5 class="fs-5">Quality Management</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0 py-3 pt-auto my-2 w-100">
+                                    <div class="card-body">
+                                        <p class="card-title fa fa-edit fs-1"></p>
+                                        <h5 class="fs-5">Evaluation</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3 pt-auto my-2 w-100">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-headphones fs-1"></p>
+                                        <h5 class="fs-5">Logistic Support</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-list-alt fs-1"></p>
+                                        <h5 class="fs-5">Administrative Systems</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-2">
+                                <div class="card border-0  py-3  pt-auto my-2">
+                                    <div class="card-body  ">
+                                        <p class="card-title fa fa-lock fs-1"></p>
+                                        <h5 class="fs-5">Risk Management</h5>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="btnns pt-5 w-100 d-flex justify-content-center">
+            <button class="border-0 px-4  rounded-pill fs-6 ">
+                MORE
+                <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+    <!-- consulting services -->
+
+    <!-- counter section -->
+    <section class="d-flex justify-content-center flex-wrap counter p-5 ">
+        <div class=" text-center m-3 px-5 py-4">
+            <div class="px-5">
+                <span class="fa fa-laptop "></span>
+                <p class="fw-bold fs-1">0</p>
+                <h5>COURSES</h5>
+            </div>
+        </div>
+        <div class=" text-center m-3 px-5 py-4 ">
+            <div class="px-5">
+                <span class="fa fa-laptop "></span>
+                <p class="fw-bold fs-1">0</p>
+                <h5>COURSES</h5>
+            </div>
+        </div>
+        <div class=" text-center m-3 px-5 py-4">
+            <div class="px-5">
+                <span class="fa fa-laptop "></span>
+                <p class="fw-bold fs-1">0</p>
+                <h5>COURSES</h5>
+            </div>
+        </div>
+        <div class=" text-center m-3 px-5 py-4">
+            <div class="px-5">
+                <span class="fa fa-laptop "></span>
+                <p class="fw-bold fs-1">0</p>
+                <h5>COURSES</h5>
+            </div>
+        </div>
+    </section>
+    <!-- counter section -->
+
+    <!-- News section -->
+    <section class="py-5 news-parent">
+        <div class="col-lg-7 col-sm-12  m-auto pb-3">
+            <h2 class="text-center fw-bold mt-5 text-dark">
+                See what’s happing in our blog
+            </h2>
+            <div class="devider m-auto my-4">
+                <div> </div>
+            </div>
+            <p class="fs-6 col-lg-8 text-center m-auto">
+                Check out our latest blog posts, news and articles. We have articles on a range of topics such as the
+                leaving certificate and career guidance.
+            </p>
+        </div>
+        <div class="news d-flex flex-wrap justify-content-center w-100 my-5">
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3  my-2" style="width: 22rem;">
+                <div class="img-container">
+                    <img src="images/blog-1.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body m-4">
+                    <div class="card-subtitle mb-4 fs-6">
+                        <span class="fa fa-calendar"></span>
+                        <span>7 Feb, 2020</span>
+                    </div>
+                    <h5 class="card-title fw-bold text-dark">Education today much easy with us</h5>
+                    <p class="card-text">The conclusion of the activities of the supervisory and leadership skills
+                        development course for Al-Akwa Exchange Company within the training program</p>
+
+                </div>
+            </div>
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3  my-2" style="width: 22rem;">
+                <div class="img-container">
+                    <img src="images/blog-2.jpg" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body m-4">
+                    <div class="card-subtitle mb-4 fs-6">
+                        <span class="fa fa-calendar"></span>
+                        <span>7 Feb, 2020</span>
+                    </div>
+                    <h5 class="card-title fw-bold text-dark">We Welcome every single Beginner and Expert</h5>
+                    <p class="card-text">The opening of the activities of the corporate culture course for Al-Akwa
+                        Exchange Company within the training program prepared for the company Apex</p>
+
+                </div>
+            </div>
+            <div class="card border-0 col-sm-12 col-lg-4 mx-3 my-2" style="width: 22rem;">
+                <div class="img-container">
+                    <img src="images/blog-3.jpg" class="card-img-top" alt="...">
+                </div>
+
+                <div class="card-body m-4">
+                    <div class="card-subtitle mb-4 fs-6">
+                        <span class="fa fa-calendar"></span>
+                        <span>7 Feb, 2020</span>
+                    </div>
+                    <h5 class="card-title fw-bold text-dark">Coaching today easy with us</h5>
+                    <p class="card-text">The conclusion of the first phase of the training program prepared for Al-Akwa
+                        Exchange Company - Apex for Training and Consulting</p>
+
+                </div>
+            </div>
+        </div>
+        <div class="btnns  w-100 d-flex justify-content-center">
+            <button class="border-0 px-4  rounded-pill fs-6 ">
+                ALL NEWS
+                <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+    </section>
+    <!-- News section -->
+
+    <!-- our partener -->
+    <section class="partener">
+
+        <div class="container w-100 my-5">
+            <div class="col-lg-7 col-sm-12  m-auto pb-3">
+                <h2 class="text-center fw-bold fs-5 mt-5 text-dark">
+                    TRUSTED BY 20,000 COMPANIES
+                </h2>
+            </div>
+            <div class="row">
+                <div class="splide col-12">
+                    <div class="splide__track">
+                        <div class="splide__list d-flex justify-content-between m-auto">
+
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo1.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo2.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo3.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo4.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo5.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo6.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo7.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo8.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo9.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo10.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo11.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo12.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo13.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo14.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo15.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo16.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo17.gif" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo18.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo19.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo20.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo21.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo22.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo23.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo24.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo25.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo26.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo27.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo28.png" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo29.jpg" alt="" height="150" width="150">
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-3 splide__slide m-3">
+                                <img src="images/logo30.jpg" alt="" height="150" width="150">
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- out partener -->
+
+    <!-- footer -->
+    <footer >
+        <section class="row counter-footer pt-lg-5 px-lg-5 mx-5">
+            <div class=" my-3  py-4 col-lg-3 col-sm-12 col-md-6">
+                <div class="d-flex align-items-center">
+                    <p class=" mt-2 mx-2"></p>
+                    <h4 class=" text-white fw-bold">
+                        Apex
+                    </h4>
+                </div>
+                <div>
+                    <div class="d-flex text-white mx-2 py-4">
+                        <span class="fa fa-home fs-4"></span>
+                        <h6 class="mx-2">
+                            Sana'a-Police Academy st.
+                        </h6>
+                    </div>
+                    <div class="d-flex text-white mx-2 pb-4">
+                        <span class="fa fa-envelope fs-5"></span>
+                        <h6 class="mx-2">
+                            info@apextcc.com
+                        </h6>
+                    </div>
+                    <div class="d-flex text-white mx-2 pb-4">
+                        <span class="fa fa-headphones fs-4"></span>
+                        <h6 class="mx-2">
+                            123-456-7890
+                        </h6>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" my-3 py-4 col-lg-3 col-sm-12 col-md-6">
+                <div class="d-flex align-items-center">
+                    <p class=" mt-2 mx-2"></p>
+                    <h4 class=" text-white fw-bold">
+                        Quick
+                    </h4>
+                </div>
+                <div class="  mx-2 py-3">
+                    <a class="my-2">
+                        Coaching Online
+                    </a>
+                    <a class="my-2">
+                        Mentor Search
+                    </a>
+                    <a class="my-2">
+                        SHop Online
+                    </a>
+                    <a class="my-2">
+                        Teacher Online
+                    </a>
+                </div>
+            </div>
+            <div class=" my-3  py-4 col-lg-3 col-sm-12 col-md-6">
+                <div class="d-flex align-items-center">
+                    <p class=" mt-2 mx-2"></p>
+                    <h4 class=" text-white fw-bold">
+                        Links
+                    </h4>
+                </div>
+                <div class="  mx-2 py-3">
+                    <a class="my-2">
+                        Coaching Online
+                    </a>
+                    <a class="my-2">
+                        Mentor Search
+                    </a>
+                    <a class="my-2">
+                        SHop Online
+                    </a>
+                    <a class="my-2">
+                        Teacher Online
+                    </a>
+                </div>
+            </div>
+            <div class=" my-3 py-4 col-lg-3 col-sm-12 col-md-6">
+                <div class="d-flex align-items-center">
+                    <p class=" mt-2 mx-2"></p>
+                    <h4 class=" text-white fw-bold">
+                        Subscribe
+                    </h4>
+                </div>
+                <div class="subscribe">
+                    <div class="d-flex text-white mx-2 pt-4 pb-2">
+
+                        <h6>
+                            Subscribe to our newsletter! Stay always in touch!
+                        </h6>
+                    </div>
+                    <div class="input-group mb-3 mx-2">
+                        <input type="text" class="form-control  rounded-0 text-white py-2" placeholder="Your email"
+                            aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span
+                            class="input-group-text fa fa-envelope rounded-0 border-0 text-white d-flex align-items-center"
+                            id="basic-addon2"></span>
+                    </div>
+                    <div class="d-flex text-white mx-2 pb-4">
+                        <h6>
+                            * Don't worry, we don't spam.
+                        </h6>
+                    </div>
+
+                </div>
+              
+            </div>
+            
+
+        </section>
+        <div class="copy-right d-flex flex-wrap justify-content-between align-items-center py-4 px-lg-5">
+            <div class="mx-5 my-2">
+                <p>©2022 Apex. All Rights Reserved. Designed By <a href="#" class="copy-right-link">Prosite</a></p>
+
+            </div>
+            <div class="mx-5 my-2 d-flex copy-right-fa">
+                <div class="p-2 py-1 fs-5 mx-2" > <i class="fa fa-facebook-official"></i></div>
+                <div class="p-2 py-1 fs-5 mx-2"><i class="fa fa-twitter"></i></div>
+                <div class="p-2 py-1 fs-5 mx-2"><i class="fa fa-pinterest-p"></i></div>
+                <div class="p-2 py-1 fs-5 mx-2"><i class="fa fa-google-plus-square"></i></div>
+            </div>
+        </div>
+
+    </footer>
+    
+    <!-- footer -->
+    <div class="cursor"></div>
+    <button onclick="topFunction()" id="Btn" class="position-fixed border-0">
+    <i class="fa fa-angle-up fs-2 text-white"></i>
+    </button>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+<script src="js/js.js"></script>
+<script src="js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+<script src="js/main.js"></script>
+
+</html>
